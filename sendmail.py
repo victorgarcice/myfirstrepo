@@ -8,8 +8,8 @@ This is a temporary script file.
 
 
 import smtplib
-
-TO = 'vik000@gmail.com'
+gmail_user = input('introduce el usuario de gmail')
+TO = '{}@gmail.com'.format(gmail_user)
 SUBJECT = 'TEST MAIL'
 TEXT = 'Here is a message from python.'
 
